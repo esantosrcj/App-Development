@@ -12,6 +12,8 @@
 		FBA4C20C1D7897ED00DA0E44 /* Quiz-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = FBA4C20B1D7897ED00DA0E44 /* Quiz-Prefix.pch */; };
 		FBA4C20E1D7897ED00DA0E44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBA4C20D1D7897ED00DA0E44 /* Assets.xcassets */; };
 		FBA4C2111D7897ED00DA0E44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBA4C20F1D7897ED00DA0E44 /* LaunchScreen.storyboard */; };
+		FBA4C21B1D789F6600DA0E44 /* BNRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA4C2191D789F6600DA0E44 /* BNRViewController.m */; };
+		FBA4C21C1D789F6600DA0E44 /* BNRViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBA4C21A1D789F6600DA0E44 /* BNRViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,9 @@
 		FBA4C20D1D7897ED00DA0E44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBA4C2101D7897ED00DA0E44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBA4C2121D7897ED00DA0E44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBA4C2181D789F6600DA0E44 /* BNRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRViewController.h; sourceTree = "<group>"; };
+		FBA4C2191D789F6600DA0E44 /* BNRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRViewController.m; sourceTree = "<group>"; };
+		FBA4C21A1D789F6600DA0E44 /* BNRViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNRViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +44,9 @@
 		FBA4C1F91D7897ED00DA0E44 = {
 			isa = PBXGroup;
 			children = (
+				FBA4C2181D789F6600DA0E44 /* BNRViewController.h */,
+				FBA4C2191D789F6600DA0E44 /* BNRViewController.m */,
+				FBA4C21A1D789F6600DA0E44 /* BNRViewController.xib */,
 				FBA4C2041D7897ED00DA0E44 /* Quiz */,
 				FBA4C2031D7897ED00DA0E44 /* Products */,
 			);
@@ -134,6 +142,7 @@
 				FBA4C2111D7897ED00DA0E44 /* LaunchScreen.storyboard in Resources */,
 				FBA4C20E1D7897ED00DA0E44 /* Assets.xcassets in Resources */,
 				FBA4C20C1D7897ED00DA0E44 /* Quiz-Prefix.pch in Resources */,
+				FBA4C21C1D789F6600DA0E44 /* BNRViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +155,7 @@
 			files = (
 				FBA4C20A1D7897ED00DA0E44 /* AppDelegate.m in Sources */,
 				FBA4C2071D7897ED00DA0E44 /* main.m in Sources */,
+				FBA4C21B1D789F6600DA0E44 /* BNRViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

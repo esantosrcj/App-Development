@@ -83,63 +83,10 @@
     return [self initWithItemName:@"Item"];
 }
 
-- (void)setContainedItem:(BNRItem *)item
+- (void)setContainedItem:(BNRItem *)containedItem
 {
-    _containedItem = item;
-    
-    // When given an item to contain, the contained item will
-    // be given a pointer to its container
-    item.container = self;
-}
-
-- (BNRItem *)containedItem
-{
-    return _containedItem;
-}
-
-- (void)setContainer:(BNRItem *)item
-{
-    _container = item;
-}
-
-- (BNRItem *)container
-{
-    return _container;
-}
-
-- (void)setItemName:(NSString *)str
-{
-    _itemName = str;
-}
-
-- (NSString *)itemName
-{
-    return _itemName;
-}
-
-- (void)setSerialNumber:(NSString *)str
-{
-    _serialNumber = str;
-}
-
-- (NSString *)serialNumber
-{
-    return _serialNumber;
-}
-
-- (void)setValueInDollars:(int)v
-{
-    _valueInDollars = v;
-}
-
-- (int)valueInDollars
-{
-    return _valueInDollars;
-}
-
-- (NSDate *)dateCreated
-{
-    return _dateCreated;
+    _containedItem = containedItem;
+    self.containedItem.container = self;
 }
 
 - (NSString *)description

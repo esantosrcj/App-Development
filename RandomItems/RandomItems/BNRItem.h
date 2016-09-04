@@ -16,6 +16,9 @@
     NSString *_serialNumber;
     int _valueInDollars;
     NSDate *_dateCreated;
+    
+    BNRItem *_containedItem;
+    __weak BNRItem *_container;
 }
 
 // + symbol signifies a CLASS method
@@ -27,6 +30,12 @@
                     serialNumber:(NSString *)sNumber;
 
 - (instancetype)initWithItemName:(NSString *)name;
+
+- (void)setContainedItem:(BNRItem *)item;
+- (BNRItem *)containedItem;
+
+- (void)setContainer:(BNRItem *)item;
+- (BNRItem *)container;
 
 // Getters and Setters
 - (void)setItemName:(NSString *)str;

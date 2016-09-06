@@ -12,6 +12,7 @@
 		FB31C5891D7BEE8400919C9A /* Hypnosister-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = FB31C5881D7BEE8400919C9A /* Hypnosister-Prefix.pch */; };
 		FB31C58B1D7BEE8400919C9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB31C58A1D7BEE8400919C9A /* Assets.xcassets */; };
 		FB31C58E1D7BEE8400919C9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB31C58C1D7BEE8400919C9A /* LaunchScreen.storyboard */; };
+		FB31C5971D7E206F00919C9A /* BNRHypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB31C5961D7E206F00919C9A /* BNRHypnosisView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,8 @@
 		FB31C58A1D7BEE8400919C9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB31C58D1D7BEE8400919C9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB31C58F1D7BEE8400919C9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB31C5951D7E206F00919C9A /* BNRHypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRHypnosisView.h; sourceTree = "<group>"; };
+		FB31C5961D7E206F00919C9A /* BNRHypnosisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRHypnosisView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				FB31C58C1D7BEE8400919C9A /* LaunchScreen.storyboard */,
 				FB31C58F1D7BEE8400919C9A /* Info.plist */,
 				FB31C5821D7BEE8400919C9A /* Supporting Files */,
+				FB31C5951D7E206F00919C9A /* BNRHypnosisView.h */,
+				FB31C5961D7E206F00919C9A /* BNRHypnosisView.m */,
 			);
 			path = Hypnosister;
 			sourceTree = "<group>";
@@ -146,6 +151,7 @@
 			files = (
 				FB31C5871D7BEE8400919C9A /* AppDelegate.m in Sources */,
 				FB31C5841D7BEE8400919C9A /* main.m in Sources */,
+				FB31C5971D7E206F00919C9A /* BNRHypnosisView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +292,7 @@
 				FB31C5941D7BEE8400919C9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

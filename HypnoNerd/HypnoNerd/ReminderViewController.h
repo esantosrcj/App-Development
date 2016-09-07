@@ -6,8 +6,8 @@
 //  Copyright © 2016 Red Rojo. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface ReminderViewController : NSObject
+@interface ReminderViewController : UIViewController
 
 @end

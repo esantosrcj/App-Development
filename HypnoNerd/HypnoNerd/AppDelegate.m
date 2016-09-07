@@ -27,11 +27,14 @@
     HypnosisViewController *hvc = [[HypnosisViewController alloc] init];
     
     // This will get a pointer to an object that represents the app bundle
-    NSBundle *appBundle = [NSBundle mainBundle];
+    //NSBundle *appBundle = [NSBundle mainBundle];
     
     // Look in the appBundle for the file ReminderViewController.xib
-    ReminderViewController *rvc = [[ReminderViewController alloc] initWithNibName:@"ReminderViewController"
-                                                                           bundle:appBundle];
+    //ReminderViewController *rvc = [[ReminderViewController alloc] initWithNibName:@"ReminderViewController"
+      //                                                                     bundle:appBundle];
+    
+    // Works the same as before; set initWithNibName to nil and bundle to nil
+    ReminderViewController *rvc = [[ReminderViewController alloc] init];
     
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
     tabBarController.viewControllers = @[hvc, rvc];

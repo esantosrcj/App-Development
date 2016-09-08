@@ -12,6 +12,9 @@
 		FBCB2B941D81FC7E00C2CC2D /* Homepwner-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = FBCB2B931D81FC7E00C2CC2D /* Homepwner-Prefix.pch */; };
 		FBCB2B961D81FC7E00C2CC2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBCB2B951D81FC7E00C2CC2D /* Assets.xcassets */; };
 		FBCB2B991D81FC7E00C2CC2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBCB2B971D81FC7E00C2CC2D /* LaunchScreen.storyboard */; };
+		FBCB2BA21D82020500C2CC2D /* KCKItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCB2BA11D82020500C2CC2D /* KCKItemsViewController.m */; };
+		FBCB2BA51D82084300C2CC2D /* BNRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCB2BA41D82084300C2CC2D /* BNRItem.m */; };
+		FBCB2BA81D820BA200C2CC2D /* KCKItemStore.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCB2BA71D820BA200C2CC2D /* KCKItemStore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,12 @@
 		FBCB2B951D81FC7E00C2CC2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBCB2B981D81FC7E00C2CC2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBCB2B9A1D81FC7E00C2CC2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBCB2BA01D82020500C2CC2D /* KCKItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCKItemsViewController.h; sourceTree = "<group>"; };
+		FBCB2BA11D82020500C2CC2D /* KCKItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCKItemsViewController.m; sourceTree = "<group>"; };
+		FBCB2BA31D82084300C2CC2D /* BNRItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItem.h; sourceTree = "<group>"; };
+		FBCB2BA41D82084300C2CC2D /* BNRItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItem.m; sourceTree = "<group>"; };
+		FBCB2BA61D820BA200C2CC2D /* KCKItemStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCKItemStore.h; sourceTree = "<group>"; };
+		FBCB2BA71D820BA200C2CC2D /* KCKItemStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCKItemStore.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +66,12 @@
 			children = (
 				FBCB2B901D81FC7E00C2CC2D /* AppDelegate.h */,
 				FBCB2B911D81FC7E00C2CC2D /* AppDelegate.m */,
+				FBCB2BA01D82020500C2CC2D /* KCKItemsViewController.h */,
+				FBCB2BA11D82020500C2CC2D /* KCKItemsViewController.m */,
+				FBCB2BA31D82084300C2CC2D /* BNRItem.h */,
+				FBCB2BA41D82084300C2CC2D /* BNRItem.m */,
+				FBCB2BA61D820BA200C2CC2D /* KCKItemStore.h */,
+				FBCB2BA71D820BA200C2CC2D /* KCKItemStore.m */,
 				FBCB2B931D81FC7E00C2CC2D /* Homepwner-Prefix.pch */,
 				FBCB2B951D81FC7E00C2CC2D /* Assets.xcassets */,
 				FBCB2B971D81FC7E00C2CC2D /* LaunchScreen.storyboard */,
@@ -145,7 +160,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBCB2B921D81FC7E00C2CC2D /* AppDelegate.m in Sources */,
+				FBCB2BA51D82084300C2CC2D /* BNRItem.m in Sources */,
+				FBCB2BA81D820BA200C2CC2D /* KCKItemStore.m in Sources */,
 				FBCB2B8F1D81FC7E00C2CC2D /* main.m in Sources */,
+				FBCB2BA21D82020500C2CC2D /* KCKItemsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

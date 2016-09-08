@@ -83,12 +83,6 @@
     return [self initWithItemName:@"Item"];
 }
 
-- (void)setContainedItem:(BNRItem *)containedItem
-{
-    _containedItem = containedItem;
-    self.containedItem.container = self;
-}
-
 - (NSString *)description
 {
     NSString *descriptionString = [[NSString alloc] initWithFormat:@"%@ (%@): Worth $%d, recorded on %@",

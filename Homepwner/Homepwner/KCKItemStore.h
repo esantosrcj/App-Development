@@ -17,5 +17,7 @@
 // Notice that this is a CLASS method and prefixed with a + instead of a -
 + (instancetype)sharedStore;
 - (BNRItem *)createItem;
+- (void)removeItem:(BNRItem *)item;
+- (void)moveItemAtIndex:(NSUInteger)fromIndex toIndex:(NSUInteger)toIndex;
 
 @end

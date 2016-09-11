@@ -15,7 +15,8 @@
 		FBCB2BA21D82020500C2CC2D /* KCKItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCB2BA11D82020500C2CC2D /* KCKItemsViewController.m */; };
 		FBCB2BA51D82084300C2CC2D /* BNRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCB2BA41D82084300C2CC2D /* BNRItem.m */; };
 		FBCB2BA81D820BA200C2CC2D /* KCKItemStore.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCB2BA71D820BA200C2CC2D /* KCKItemStore.m */; };
-		FBD1F46E1D8378C900CF2EE9 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBD1F46D1D8378C900CF2EE9 /* HeaderView.xib */; };
+		FBD1F4721D84AAED00CF2EE9 /* KCKDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD1F4701D84AAED00CF2EE9 /* KCKDetailViewController.m */; };
+		FBD1F4731D84AAED00CF2EE9 /* KCKDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBD1F4711D84AAED00CF2EE9 /* KCKDetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +34,9 @@
 		FBCB2BA41D82084300C2CC2D /* BNRItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItem.m; sourceTree = "<group>"; };
 		FBCB2BA61D820BA200C2CC2D /* KCKItemStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCKItemStore.h; sourceTree = "<group>"; };
 		FBCB2BA71D820BA200C2CC2D /* KCKItemStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCKItemStore.m; sourceTree = "<group>"; };
-		FBD1F46D1D8378C900CF2EE9 /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		FBD1F46F1D84AAED00CF2EE9 /* KCKDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCKDetailViewController.h; sourceTree = "<group>"; };
+		FBD1F4701D84AAED00CF2EE9 /* KCKDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCKDetailViewController.m; sourceTree = "<group>"; };
+		FBD1F4711D84AAED00CF2EE9 /* KCKDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KCKDetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,9 +71,11 @@
 			children = (
 				FBCB2B901D81FC7E00C2CC2D /* AppDelegate.h */,
 				FBCB2B911D81FC7E00C2CC2D /* AppDelegate.m */,
+				FBD1F46F1D84AAED00CF2EE9 /* KCKDetailViewController.h */,
+				FBD1F4701D84AAED00CF2EE9 /* KCKDetailViewController.m */,
+				FBD1F4711D84AAED00CF2EE9 /* KCKDetailViewController.xib */,
 				FBCB2BA01D82020500C2CC2D /* KCKItemsViewController.h */,
 				FBCB2BA11D82020500C2CC2D /* KCKItemsViewController.m */,
-				FBD1F46D1D8378C900CF2EE9 /* HeaderView.xib */,
 				FBCB2BA31D82084300C2CC2D /* BNRItem.h */,
 				FBCB2BA41D82084300C2CC2D /* BNRItem.m */,
 				FBCB2BA61D820BA200C2CC2D /* KCKItemStore.h */,
@@ -149,10 +154,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBD1F4731D84AAED00CF2EE9 /* KCKDetailViewController.xib in Resources */,
 				FBCB2B991D81FC7E00C2CC2D /* LaunchScreen.storyboard in Resources */,
 				FBCB2B961D81FC7E00C2CC2D /* Assets.xcassets in Resources */,
 				FBCB2B941D81FC7E00C2CC2D /* Homepwner-Prefix.pch in Resources */,
-				FBD1F46E1D8378C900CF2EE9 /* HeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +173,7 @@
 				FBCB2BA81D820BA200C2CC2D /* KCKItemStore.m in Sources */,
 				FBCB2B8F1D81FC7E00C2CC2D /* main.m in Sources */,
 				FBCB2BA21D82020500C2CC2D /* KCKItemsViewController.m in Sources */,
+				FBD1F4721D84AAED00CF2EE9 /* KCKDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

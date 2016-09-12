@@ -8,6 +8,7 @@
 
 #import "KCKItemStore.h"
 #import "BNRItem.h"
+#import "KCKImageStore.h"
 
 @interface KCKItemStore ()
 
@@ -68,6 +69,10 @@
 
 - (void)removeItem:(BNRItem *)item
 {
+    NSString *key = item.itemKey;
+    
+    [[KCKImageStore sharedStore] deleteImageForKey:key];
+    
     [self.privateItems removeObjectIdenticalTo:item];
 }
 

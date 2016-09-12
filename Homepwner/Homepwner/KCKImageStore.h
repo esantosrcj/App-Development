@@ -8,6 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
+@class UIImage;
+
 @interface KCKImageStore : NSObject
 
+// + symbol signifies a class method
++ (instancetype)sharedStore;
+
+- (void)setImage:(UIImage *)image forKey:(NSString *)key;
+- (UIImage *)imageForKey:(NSString *)key;
+- (void)deleteImageForKey:(NSString *)key;
 @end

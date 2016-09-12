@@ -15,6 +15,9 @@
 @property (nonatomic) int valueInDollars;
 @property (nonatomic, readonly, strong) NSDate *dateCreated;
 
+// Dictionary key
+@property (nonatomic, copy) NSString *itemKey;
+
 
 // + symbol signifies a CLASS method
 + (instancetype)randomItem;

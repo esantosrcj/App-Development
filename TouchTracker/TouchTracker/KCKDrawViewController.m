@@ -7,7 +7,13 @@
 //
 
 #import "KCKDrawViewController.h"
+#import "KCKDrawView.h"
 
 @implementation KCKDrawViewController
+
+- (void)loadView
+{
+    self.view = [[KCKDrawView alloc] initWithFrame:CGRectZero];
+}
 
 @end

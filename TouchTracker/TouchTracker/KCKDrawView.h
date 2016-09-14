@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface KCKDrawView : NSObject
+@interface KCKDrawView : UIView
 
 @end

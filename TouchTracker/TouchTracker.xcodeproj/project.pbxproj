@@ -12,6 +12,9 @@
 		FB1583311D898DA40077462B /* TouchTracker-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = FB1583301D898DA40077462B /* TouchTracker-Prefix.pch */; };
 		FB1583331D898DA40077462B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB1583321D898DA40077462B /* Assets.xcassets */; };
 		FB1583361D898DA40077462B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB1583341D898DA40077462B /* LaunchScreen.storyboard */; };
+		FB15833F1D898E1C0077462B /* KCKLine.m in Sources */ = {isa = PBXBuildFile; fileRef = FB15833E1D898E1C0077462B /* KCKLine.m */; };
+		FB1583421D8991CA0077462B /* KCKDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1583411D8991CA0077462B /* KCKDrawView.m */; };
+		FB1583451D8992610077462B /* KCKDrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1583441D8992610077462B /* KCKDrawViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,12 @@
 		FB1583321D898DA40077462B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB1583351D898DA40077462B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB1583371D898DA40077462B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB15833D1D898E1C0077462B /* KCKLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCKLine.h; sourceTree = "<group>"; };
+		FB15833E1D898E1C0077462B /* KCKLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCKLine.m; sourceTree = "<group>"; };
+		FB1583401D8991CA0077462B /* KCKDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCKDrawView.h; sourceTree = "<group>"; };
+		FB1583411D8991CA0077462B /* KCKDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCKDrawView.m; sourceTree = "<group>"; };
+		FB1583431D8992610077462B /* KCKDrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCKDrawViewController.h; sourceTree = "<group>"; };
+		FB1583441D8992610077462B /* KCKDrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCKDrawViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +71,12 @@
 				FB1583341D898DA40077462B /* LaunchScreen.storyboard */,
 				FB1583371D898DA40077462B /* Info.plist */,
 				FB15832A1D898DA40077462B /* Supporting Files */,
+				FB15833D1D898E1C0077462B /* KCKLine.h */,
+				FB1583401D8991CA0077462B /* KCKDrawView.h */,
+				FB1583431D8992610077462B /* KCKDrawViewController.h */,
+				FB1583441D8992610077462B /* KCKDrawViewController.m */,
+				FB1583411D8991CA0077462B /* KCKDrawView.m */,
+				FB15833E1D898E1C0077462B /* KCKLine.m */,
 			);
 			path = TouchTracker;
 			sourceTree = "<group>";
@@ -144,7 +159,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB15833F1D898E1C0077462B /* KCKLine.m in Sources */,
 				FB15832F1D898DA40077462B /* AppDelegate.m in Sources */,
+				FB1583421D8991CA0077462B /* KCKDrawView.m in Sources */,
+				FB1583451D8992610077462B /* KCKDrawViewController.m in Sources */,
 				FB15832C1D898DA40077462B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -8,7 +8,6 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KCKDetailViewController">
             <connections>
                 <outlet property="dateLabel" destination="YMm-pW-ioZ" id="5Mk-y0-vbl"/>
-                <outlet property="imageView" destination="i58-wz-QFU" id="1Ab-5A-0kf"/>
                 <outlet property="nameField" destination="kdH-n6-6qZ" id="aBz-60-CUJ"/>
                 <outlet property="serialNumberField" destination="Abs-Dy-WxZ" id="cld-71-A2D"/>
                 <outlet property="toolbar" destination="aKE-CD-vOo" id="9TY-O3-3dD"/>
@@ -21,8 +20,12 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kax-4N-gRH">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kax-4N-gRH">
                     <rect key="frame" x="21" y="82" width="45" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="45" id="CEC-4I-Iot"/>
+                        <constraint firstAttribute="height" constant="21" id="vJO-KL-3EX"/>
+                    </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
@@ -39,7 +42,7 @@
                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kdH-n6-6qZ">
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kdH-n6-6qZ">
                     <rect key="frame" x="74" y="78" width="211" height="30"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits"/>
@@ -69,11 +72,11 @@
                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="i58-wz-QFU">
-                    <rect key="frame" x="15" y="266" width="291" height="210"/>
-                </imageView>
-                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aKE-CD-vOo">
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aKE-CD-vOo">
                     <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="gBH-jS-9hF"/>
+                    </constraints>
                     <items>
                         <barButtonItem title="Item" systemItem="camera" id="wFD-Dx-hp7">
                             <connections>
@@ -84,6 +87,16 @@
                 </toolbar>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="aKE-CD-vOo" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="0QZ-cm-Aas"/>
+                <constraint firstItem="Kax-4N-gRH" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="21" id="AmF-Q2-JYU"/>
+                <constraint firstAttribute="bottom" secondItem="aKE-CD-vOo" secondAttribute="bottom" id="C3f-41-fQW"/>
+                <constraint firstItem="Kax-4N-gRH" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="82" id="NBU-U8-3fb"/>
+                <constraint firstItem="kdH-n6-6qZ" firstAttribute="baseline" secondItem="Kax-4N-gRH" secondAttribute="baseline" id="lAi-b4-FOy"/>
+                <constraint firstItem="kdH-n6-6qZ" firstAttribute="leading" secondItem="Kax-4N-gRH" secondAttribute="trailing" constant="8" id="s31-m0-8YO"/>
+                <constraint firstAttribute="trailing" secondItem="aKE-CD-vOo" secondAttribute="trailing" id="tqq-AK-sbt"/>
+                <constraint firstAttribute="trailing" secondItem="kdH-n6-6qZ" secondAttribute="trailing" constant="35" id="zI5-LC-d3g"/>
+            </constraints>
             <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
             <connections>
